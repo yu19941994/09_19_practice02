@@ -1,0 +1,248 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.wrap{
+	width: 1902px;
+	margin: 0 auto;
+}
+
+.header{
+	background-image: url("../images/Masterhead.png");
+	height: 750px;
+
+}
+
+.topmenu{
+	float: right;
+	margin: 50px 300px 0 0;
+}
+
+.header h1 a{
+	background-image: url("../images/logo.png");
+	width: 195px;
+	height: 42px;
+	display: block;
+	text-indent: 101%;
+	overflow: hidden;
+	white-space: nowrap;
+	margin: 50px 0 0 300px;
+	float: left;
+}
+
+.topmenu li{
+	float: left;
+
+}
+
+.topmenu a{
+	color: white;
+	text-decoration: none;
+	 -webkit-transform : scale(0.75);
+	 display: inline-block;
+}
+
+.clearfix{
+	clear: both;
+}
+
+.header h2{
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 65px;
+	margin-top: 180px;
+}
+
+.header p{
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	 font-size: 18px;
+	 line-height: 1.5;
+	 margin: 20px 550px;
+}
+
+.button{
+	background-color: #e84545;
+	color: white;
+	margin: 40px 860px;
+	border: #e84545;
+	padding: 16px 40px;
+}
+
+.menu{
+	margin: 80px 300px;
+}
+
+.menu img{
+	padding: 20px 43px;
+}
+
+.menu li{
+	display: block;
+	float: left;
+	width: 400px;
+	margin: 30px 15px;
+}
+
+.menu li h3{
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.menu li p{
+	margin: 10px 30px;
+}
+
+.menu li h3,.menu li p{
+	text-align: center;
+}
+
+.picture{
+	margin: 100px 0;
+}
+
+.picture li{
+	float: left;
+}
+
+.picture img:hover{
+	background-color: #e85350;
+	opacity: 0.5;
+}
+
+.employee{
+	margin: 80px 350px;
+}
+
+.employee li{
+	float: left;
+	margin: 0 15px;
+}
+.story{
+	background-image: url("../images/story.png");
+	height: 500px;
+	margin: 100px 1px;
+}
+
+.download{
+	text-align: center;
+	margin: 20px 0;
+}
+
+h4{
+	font-size: 30px;
+	margin: 20px 0;
+}
+
+.download p{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.button2{
+	background-color: #e84545;
+	color: white;
+	margin: 40px 900px;
+	border: #e84545;
+	padding: 16px 55px;
+	margin: 35px 700px;
+}
+
+.companywrap{
+	background-color: #3a3e64;
+	padding: 50px 300px;
+	text-align: center;
+	/*height: 150px;*/
+}
+
+.companyinfo{
+	/*height: 150px;*/
+	/*background-color: #3a3e64;*/
+	/*padding: 50px 300px;*/
+	/*text-align: center;*/
+}
+
+.info{
+	display: block;
+	float: left;
+	width: 350px;
+	margin: 0 40px;
+}
+
+.companyinfo h5{
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 25px 0;
+}
+
+.companyinfo p{
+	color: #898ba2;
+	line-height: 1.5;
+}
+
+.sns{
+	display: block;
+	margin: 0 100px;
+}
+
+.sns li{
+	display: block;
+	float: left;
+	width: 50px;
+}
+
+.buttom{
+	text-align: center;
+	line-height: 1.5;
+	background-color: #313454;
+	height: 100px;
+}
+
+.buttom p{
+	padding: 20px 0;
+	color: #75767a
+
+}
